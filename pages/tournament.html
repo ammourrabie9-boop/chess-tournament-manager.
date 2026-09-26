@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Tournament - Chess Tournament Manager</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/tournament.css">
+
+</head>
+
+<body>
+
+    <main class="tournament-page">
+
+
+        <!-- HEADER -->
+
+        <header class="tournament-header">
+
+            <div>
+
+                <h1 id="tournamentTitle">
+                    Tournament
+                </h1>
+
+                <p id="tournamentType">
+                    Tournament Type
+                </p>
+
+            </div>
+
+
+            <button
+                type="button"
+                id="backButton"
+            >
+                Back
+            </button>
+
+        </header>
+
+
+
+        <!-- TOURNAMENT INFORMATION -->
+
+        <section class="tournament-form-container">
+
+
+            <div class="form-section">
+
+                <h2>
+                    Tournament Information
+                </h2>
+
+
+                <div class="tournament-info">
+
+                    <div class="info-card">
+
+                        <span>
+                            Tournament Type
+                        </span>
+
+                        <strong id="infoType">
+                            -
+                        </strong>
+
+                    </div>
+
+
+                    <div class="info-card">
+
+                        <span>
+                            Players
+                        </span>
+
+                        <strong id="infoPlayers">
+                            0
+                        </strong>
+
+                    </div>
+
+
+                    <div class="info-card">
+
+                        <span>
+                            Rounds
+                        </span>
+
+                        <strong id="infoRounds">
+                            -
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PLAYERS -->
+
+            <div class="form-section">
+
+                <div class="section-header">
+
+                    <div>
+
+                        <h2>
+                            Players
+                        </h2>
+
+                        <p>
+                            Manage players in this tournament.
+                        </p>
+
+                    </div>
+
+
+                    <div class="player-actions">
+
+                        <button
+                            type="button"
+                            id="addTournamentPlayerButton"
+                        >
+                            + Add Player
+                        </button>
+
+
+                        <button
+                            type="button"
+                            id="removeTournamentPlayerButton"
+                        >
+                            Remove Player
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <div id="tournamentPlayersList">
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ROUNDS -->
+
+            <div class="form-section">
+
+                <h2>
+                    Rounds
+                </h2>
+
+
+                <div id="roundsContainer">
+
+                    <p>
+                        Rounds will be generated automatically.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- STANDINGS -->
+
+            <div class="form-section">
+
+                <h2>
+                    Standings
+                </h2>
+
+
+                <div id="standingsContainer">
+
+                    <p>
+                        Standings will appear here after games are played.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <script src="../js/tournament-page.js"></script>
+
+</body>
+
+</html>
