@@ -1,0 +1,324 @@
+.tournament-page {
+    min-height: 100vh;
+
+    background: #111111;
+
+    color: white;
+}
+
+
+.tournament-header {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 25px 40px;
+
+    border-bottom: 1px solid #292929;
+}
+
+
+.tournament-header h1 {
+    margin: 0;
+
+    color: #66c7ff;
+}
+
+
+.tournament-header p {
+    margin-top: 6px;
+
+    color: #aaaaaa;
+}
+
+
+#backButton {
+    padding: 10px 18px;
+
+    border: 1px solid #444444;
+
+    border-radius: 7px;
+
+    background: transparent;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+
+#backButton:hover {
+    border-color: #66c7ff;
+
+    color: #66c7ff;
+}
+
+
+.tournament-form-container {
+    width: 100%;
+
+    max-width: 700px;
+
+    margin: 0 auto;
+
+    padding: 40px 25px;
+}
+
+
+.form-section {
+    padding: 30px;
+
+    margin-bottom: 25px;
+
+    background: #181818;
+
+    border: 1px solid #292929;
+
+    border-radius: 12px;
+}
+
+
+.form-section h2 {
+    margin-top: 0;
+
+    margin-bottom: 30px;
+
+    color: #66c7ff;
+}
+
+
+.form-section p {
+    color: #aaaaaa;
+
+    margin-bottom: 25px;
+}
+
+
+.form-section label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: white;
+}
+
+
+.form-section input,
+.form-section select {
+    width: 100%;
+
+    padding: 13px;
+
+    margin-bottom: 22px;
+
+    border: 1px solid #444444;
+
+    border-radius: 7px;
+
+    background: #101010;
+
+    color: white;
+
+    font-size: 15px;
+
+    outline: none;
+}
+
+
+.form-section input:focus,
+.form-section select:focus {
+    border-color: #66c7ff;
+}
+
+
+
+/* ========================================
+   ADD PLAYER BUTTON
+======================================== */
+
+#addPlayerButton {
+    width: 100%;
+
+    padding: 14px;
+
+    margin-top: 10px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #2d9cff;
+
+    color: black;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+#addPlayerButton:hover {
+    background: #66c7ff;
+}
+
+
+
+/* ========================================
+   PLAYERS LIST
+======================================== */
+
+#playersList {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+    margin-top: 20px;
+}
+
+
+.player-row {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    padding: 15px;
+
+    background: #101010;
+
+    border: 1px solid #292929;
+
+    border-radius: 8px;
+}
+
+
+.player-number {
+    min-width: 30px;
+
+    color: #66c7ff;
+
+    font-weight: bold;
+
+    text-align: center;
+}
+
+
+.player-information {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    flex: 1;
+
+    flex-wrap: wrap;
+}
+
+
+.player-information strong {
+    color: white;
+
+    font-size: 16px;
+}
+
+
+.player-information span {
+    color: #aaaaaa;
+
+    font-size: 14px;
+}
+
+
+
+/* ========================================
+   PLAYER COUNT
+======================================== */
+
+#playerCountDisplay {
+    margin-top: 18px;
+
+    margin-bottom: 0;
+
+    text-align: center;
+
+    color: #66c7ff;
+
+    font-size: 16px;
+
+    font-weight: bold;
+}
+
+
+
+/* ========================================
+   CONTINUE BUTTON
+======================================== */
+
+#continueButton {
+    width: 100%;
+
+    padding: 14px;
+
+    margin-top: 25px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #2d9cff;
+
+    color: black;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+#continueButton:hover {
+    background: #66c7ff;
+}
+/* ========================================
+   TOURNAMENT PLAYER ACTIONS
+======================================== */
+
+.player-actions {
+    display: flex;
+
+    gap: 10px;
+}
+
+
+#addTournamentPlayerButton,
+#removeTournamentPlayerButton {
+    padding: 14px 20px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #2d9cff;
+
+    color: black;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+#addTournamentPlayerButton:hover,
+#removeTournamentPlayerButton:hover {
+    background: #66c7ff;
+}
